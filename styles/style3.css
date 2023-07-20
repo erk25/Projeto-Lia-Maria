@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .main {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .main img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer {
+    color: white;
+    font-size: 20px;
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos responsivos */
+  @media only screen and (max-width: 768px) {
+    /* Alterar tamanho do texto no Header para telas menores */
+    .header h1 {
+      font-size: 24px;
+    }
+  
+    /* Reduzir tamanho da imagem no Header para telas menores */
+    .header img {
+      max-width: 80%;
+    }
+  
+    /* Reduzir tamanho da imagem na Main para telas menores */
+    .main img {
+      max-width: 80%;
+    }
+  
+    /* Reduzir tamanho da imagem no Footer para telas menores */
+    .footer img {
+      max-width: 80%;
+    }
+  }
+  
+  /* Estilos para telas ainda menores (smartphones) */
+  @media only screen and (max-width: 480px) {
+    /* Alterar tamanho do texto no Header para smartphones */
+    .header h1 {
+      font-size: 20px;
+    }
+  
+    /* Reduzir tamanho da imagem no Header para smartphones */
+    .header img {
+      max-width: 60%;
+    }
+  
+    /* Reduzir tamanho da imagem na Main para smartphones */
+    .main img {
+      max-width: 60%;
+    }
+  
+    /* Reduzir tamanho da imagem no Footer para smartphones */
+    .footer img {
+      max-width: 60%;
+    }
+  }
+  
+  
+  
